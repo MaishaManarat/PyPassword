@@ -1,8 +1,7 @@
 # 🔐 PyPassword Generator
 
-<!-- 
-Reproduced old project during my python learning journey to workable day to day use. Basically i got tired of thinking new pass during every BAU activity
--->
+> **Comment:** Reproduced old project during my python learning journey to workable day to day use. Basically i got tired of thinking new pass during every BAU activity
+
 
 A simple command-line password generator built in Python. It creates strong, randomized passwords made up of a shuffled mix of lowercase letters, uppercase letters, numbers, and symbols — no external dependencies required.
 
