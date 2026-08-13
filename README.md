@@ -56,10 +56,10 @@ OR
 
 ## 🖥️ Usage
 
+> Both the python and powershell is written with the same logic. Use whichever you like
+
 
 ### Python Script
-
-> Both the python and powershell is written with the same logic. Use whichever you like
 
 Run the python script from terminal:
 
