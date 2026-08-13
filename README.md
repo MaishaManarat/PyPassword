@@ -77,7 +77,7 @@ Run the powershell script from powershell:
 ```
 
 
-I have added an exe version, which i let claude create gui for. If do no not trust exe, make your own by
+> I have added an exe version, which I let claude create gui for. If you do no not trust exe, make your own by
 
 For python
 
