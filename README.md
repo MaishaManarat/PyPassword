@@ -39,10 +39,8 @@ A simple command-line password generator built in Python & Powershell script. It
 
 ## 📋 Requirements
 
-- Python 3.x
-- No external packages — uses only the built-in `random` module
-
-or
+- Python 3.x (No external packages — uses only the built-in `random` module)
+OR
 - PowerShell 5.1+ (Windows) or PowerShell 7+ (Windows/macOS/Linux)
 
 ## 🚀 Installation
