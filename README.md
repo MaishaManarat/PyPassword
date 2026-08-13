@@ -42,6 +42,9 @@ A simple command-line password generator built in Python & Powershell script. It
 - Python 3.x
 - No external packages — uses only the built-in `random` module
 
+or
+- PowerShell 5.1+ (Windows) or PowerShell 7+ (Windows/macOS/Linux)
+
 ## 🚀 Installation
 
 1. Clone this repository:
@@ -52,7 +55,12 @@ A simple command-line password generator built in Python & Powershell script. It
 2. Run the script directly — no `pip install` needed.
 
 
+
 ## 🖥️ Usage
+
+-----Python Script-----
+
+> Both the python and powershell is written with the same logic. Use whichever you like
 
 Run the python script from terminal:
 
@@ -68,7 +76,7 @@ or
 py password_generator.py
 ```
 
-OR
+-----Powershell Script-----
 
 Run the powershell script from powershell:
 
@@ -77,6 +85,22 @@ Run the powershell script from powershell:
 ```
 
 
+You'll be prompted to enter a desired password length (must be greater than 9):
+
+```
+Welcome to the PyPassword Generator!
+
+password length must be greater than 9
+password will include uppercase letters, lowercase letters, numbers and symbols
+
+Enter Password Length:  16
+
+Generated Password: 
+```
+
+Press **Enter** to exit once your password is generated.
+
+## 🚀 Making Your Executable
 > I have added an exe version, which I let claude create gui for. If you do no not trust exe, make your own by
 
 For python
@@ -91,21 +115,6 @@ For Powershell
    Install-Module -Name ps2exe
    Invoke-ps2exe -InputFile "pypassword-generator.ps1" -OutputFile "PyPassword-Generator.exe"  -noConsole
    ```
-
-***You'll be prompted to enter a desired password length (must be greater than 9):
-
-```
-Welcome to the PyPassword Generator!
-
-password length must be greater than 9
-password will include uppercase letters, lowercase letters, numbers and symbols
-
-Enter Password Length:  16
-
-Generated Password: 
-```
-
-Press **Enter** to exit once your password is generated.
 
 ## ⚙️ How It Works
 
