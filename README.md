@@ -56,7 +56,8 @@ OR
 
 ## 🖥️ Usage
 
------Python Script-----
+
+### Python Script
 
 > Both the python and powershell is written with the same logic. Use whichever you like
 
@@ -74,7 +75,8 @@ or
 py password_generator.py
 ```
 
------Powershell Script-----
+
+### Powershell Script
 
 Run the powershell script from powershell:
 
