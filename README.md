@@ -1,9 +1,9 @@
 # 🔐 PyPassword Generator
 
-> **Comment:** Reproduced old project during my python learning journey to workable day to day use. Basically i got tired of thinking new pass during every BAU activity
+> **Comment:** Reproduced old project during my python learning journey to workable day to day use. Basically i got tired of thinking new pass during every BAU activity. Running exe file converted from python script was lagging so I created a powershell version. 
 
 
-A simple command-line password generator built in Python. It creates strong, randomized passwords made up of a shuffled mix of lowercase letters, uppercase letters, numbers, and symbols — no external dependencies required.
+A simple command-line password generator built in Python & Powershell script. It creates strong, randomized passwords made up of a shuffled mix of lowercase letters, uppercase letters, numbers, and symbols — no external dependencies required.
 
 ```
     /                        \
@@ -54,20 +54,45 @@ A simple command-line password generator built in Python. It creates strong, ran
 
 ## 🖥️ Usage
 
-Run the script from your terminal:
+Run the python script from terminal:
 
 ```
 python password_generator.py
 ```
+or
+```
+python3 password_generator.py
+```
+or
+```
+py password_generator.py
+```
 
-I have added an exe version, which i let deepseek create gui for. If do no not trust exe, make your own by
+OR
+
+Run the powershell script from powershell:
+
+```
+./password_generator.ps1
+```
+
+
+I have added an exe version, which i let claude create gui for. If do no not trust exe, make your own by
+
+For python
 
    ```
    pip install pyinstaller
    pyinstaller --onedir password_generator.py
    ```
 
-You'll be prompted to enter a desired password length (must be greater than 9):
+For Powershell
+   ```
+   Install-Module -Name ps2exe
+   Invoke-ps2exe -InputFile "pypassword-generator.ps1" -OutputFile "PyPassword-Generator.exe"  -noConsole
+   ```
+
+***You'll be prompted to enter a desired password length (must be greater than 9):
 
 ```
 Welcome to the PyPassword Generator!
