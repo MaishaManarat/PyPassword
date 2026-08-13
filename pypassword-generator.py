@@ -113,4 +113,5 @@ if (length<=9):
   print("\n\033[31mError!! Please select length number greater 9\033[0m")
 else:
   main()
-  
+
+input("\n\033[90mPress Enter to exit...\033[0m")
