@@ -115,6 +115,12 @@ For Powershell
    Install-Module -Name ps2exe
    Invoke-ps2exe -InputFile "pypassword-generator.ps1" -OutputFile "PyPassword-Generator.exe"  -noConsole
    ```
+or
+
+   ```
+   Install-Module -Name ps2exe
+   Invoke-ps2exe -InputFile "pypassword_generator_gui.ps1" -OutputFile "PyPassword-Generator.exe"  -noConsole
+   ```
 
 ## ⚙️ How It Works
 
